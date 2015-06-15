@@ -1,7 +1,5 @@
 package codility;
 
-import java.util.ArrayList;
-
 /**
  * Created by kawrobel on 2015-05-28.
  */
