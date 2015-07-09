@@ -17,7 +17,6 @@ public class PassingCars
         for(int i = 0; i < A.length; i++){
             if(A[i] == 0){
                 lastZero += 1;
-
             }
             if(A[i] == 1 && lastZero != 0){
                 passingCars += lastZero;
