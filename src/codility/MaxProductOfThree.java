@@ -6,7 +6,7 @@ package codility;
 public class MaxProductOfThree
 {
     public static void main(String[] args){
-        int[] A = {-3, 1, 2, -2, 5, 6};
+        int[] A = {-5, -6, -4, -7, -10};
         System.out.println(findMax(A));
 
     }
@@ -37,7 +37,7 @@ public class MaxProductOfThree
                 max[1] = max[0];
                 max[0] = A[i];
             }
-            else if(A[i] <= max[0] && A[i] >= max[0]){
+            else if(A[i] <= max[0] && A[i] >= max[1]){
                 max[2] = max[1];
                 max[1] = A[i];
             }
