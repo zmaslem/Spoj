@@ -62,8 +62,6 @@ public class MaxProductOfThree
             if(max[0] * min[0] * min[1] > maxProd)
                 maxProd = max[0] * min[0] * min[1];
         }
-
-
         return maxProd;
     }
 }

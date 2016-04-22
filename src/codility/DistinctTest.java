@@ -7,11 +7,13 @@ public class DistinctTest {
 	
 	@org.junit.Before
 	public void setUp() throws Exception {
-		int[] A = {2, 1, 1, 2, 3, 1};
+
 	}
 
 	@org.junit.After
 	public void tearDown() throws Exception {
+		int[] A = {2, 1, 1, 2, 3, 1};
 		Distinct distinct = new Distinct();
+		distinct.devideList(A);
 	}
 }
