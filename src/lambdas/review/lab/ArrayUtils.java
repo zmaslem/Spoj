@@ -1,4 +1,4 @@
-package lambdas;
+package lambdas.review.lab;
 
 import java.util.Arrays;
 /** From <a href="http://courses.coreservlets.com/Course-Materials/">the

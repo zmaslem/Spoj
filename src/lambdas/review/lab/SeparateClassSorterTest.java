@@ -1,4 +1,4 @@
-package lambdas;
+package lambdas.review.lab;
 
 /**
  * Created by kawrobel on 2016-04-22.

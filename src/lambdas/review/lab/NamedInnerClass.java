@@ -1,4 +1,4 @@
-package lambdas;
+package lambdas.review.lab;
 
 import java.util.Arrays;
 import java.util.Comparator;
